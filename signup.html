@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Ccompatible" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign Up Card</title>
+		<link rel="stylesheet" href="signup.css" />
+	</head>
+	<body>
+		<div class="card-start">
+			<div class="full-card">
+				<div class="card">
+					<h1>Sign up now!</h1>
+					<h3>It's free and only takes a minute.</h3>
+				</div>
+		        <div class="signup-form">
+                    <div class="form-info">
+                        <form>
+                            <label for="firstName">First Name(required):</label>
+                            <input
+                                required
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                placeholder="Enter your name" />
+                            <label for="lastName">Last Name:</label>
+                            <input
+                                required
+                                type="text"
+                                id="Last Name"
+                                name="lastName"
+                                placeholder="Enter your last name" />
+                            <label for="email">Email(required):</label>
+                            <input
+                                required
+                                type="email"
+                                required
+                                id="email"
+                                name="email"
+                                placeholder="Enter a valid email address" />
+                            <label for="email-confirmation">Please confirm your email:</label>
+                            <input
+                                type="email"
+                                required
+                                id="email-confirmation"
+                                name="email-confirmation"
+                                placeholder="Confirm email address" />
+                            <label for="birth">Date of Birth:</label>
+                            <input type="date" id="birthday" name="birthday" />
+                            <label for="gender">Gender:</label>
+                            <label for="male">Male</label>
+                            <input class="gender2" type="checkbox" id="male" name="male" />
+                            <label for="female">Female</label>
+                            <input class="gender2" type="checkbox" id="female" name="female" />
+                            <label for="password-creation">Create a password:</label>
+                            <input
+                                maxlength="8"
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Enter a password"/>
+                            <label for="Info">How did you hear about us?:</label>
+                            <select id="origin" required>
+                                <option value="selection">Select One</option>
+                                <option value="facebook">Facebook Ad</option>
+                                <option value="instagram">Instagram Ad</option>
+                                <option value="google">Google Ad</option>
+                                <option value="tiktok">TikTok Ad</option>
+                                <option value="youtube">YouTube Ad</option>
+                                <option value="amazon">Amazon ad</option>
+                                <option value="outside">Posting</option>
+                                <option value="friend-family">From a friend or family member</option>
+                            </select>
+                            <label for="terms">Please agree to the terms and services before moving forward.</label>
+                            <input required type="checkbox" id="terms" name="terms" />
+                            <button class="big-button">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+           </div>
+     </body>
+</html>

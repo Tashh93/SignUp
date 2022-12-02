@@ -1,0 +1,77 @@
+body {
+    background-image: url(images/chicagoskyline.jpeg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.card-start {
+    opacity: 75%;
+    border-radius: 12px 12px 12px 12px;
+    height: 110vh;
+    width: 80vh;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: #000000;
+    box-shadow: 6px 5px 9px goldenrod;
+    font-style: italic;
+}
+.card{
+    margin: 0;
+    padding: 0;
+    color: rgb(212, 175, 55);
+}
+h1 {
+    color: goldenrod;
+    text-shadow: 2px 4px 4px red;
+}
+
+.signup-form {
+    color: rgb(212, 175, 55);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 15px;
+    height: 4vh;
+    width:40vh;
+    margin-left: 20vh;
+}
+input::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-style: italic;
+}
+
+select{
+    width: 40vh;
+    margin-left: 20vh;
+    border: none;
+    border-radius: 4px;
+}
+
+#birthday {
+    font-size: 15px;
+}
+button {
+    font-weight: 400;
+    font-style: italic;
+    background-color: white;
+    color: red;
+    width: 100px;
+    margin-left: 32vh;
+    border-radius: 10px 10px 10px 10px;
+    padding: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+button:hover {
+    color: red;
+    background-color: gold;
+}
