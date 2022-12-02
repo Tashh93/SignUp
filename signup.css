@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 .card-start {
-    opacity: 75%;
+    opacity: 95%;
     border-radius: 12px 12px 12px 12px;
     height: 110vh;
     width: 80vh;
@@ -38,6 +38,7 @@ form{
 }
 
 input {
+    border: 3px solid red;
     border-radius: 15px;
     height: 4vh;
     width:40vh;
@@ -55,11 +56,15 @@ select{
     border: none;
     border-radius: 4px;
 }
+option{
+    border: 3px solid red;
+}
 
 #birthday {
     font-size: 15px;
 }
 button {
+    border: 3px solid red
     font-weight: 400;
     font-style: italic;
     background-color: white;
